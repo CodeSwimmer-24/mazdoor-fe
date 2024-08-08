@@ -168,6 +168,10 @@
   background: #ffffff;
 }
 
+.electricianDiv {
+  width: 410px;
+}
+
 .header-carousel .container::after,
 .page-header .container::after {
   top: 100%;
