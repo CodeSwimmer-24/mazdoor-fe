@@ -530,6 +530,47 @@
 }
 
 /*** Footer ***/
+
+#exampleModal {
+  margin-top: 100px;
+  margin-left: -150px;
+}
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.terms {
+  width: 200px;
+}
+
+.size {
+  height: 600px;
+  width: 900px;
+}
+
+.modal-body {
+  /* height: 350px; */
+  overflow: hidden;
+}
+
+
+
+.modal-body:hover {
+  overflow-y: auto;
+}
+
+.popupheader {
+  /* background-color: green; */
+  color: var(--light);
+}
+
+.fade {
+  opacity: 1;
+  -webkit-transaction: opacity 1s linear;
+  /* transacttion: opacity 1s linear; */
+}
+
 .footer .btn.btn-social {
   margin-right: 5px;
   width: 35px;
