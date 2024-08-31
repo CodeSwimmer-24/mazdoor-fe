@@ -106,6 +106,17 @@
   outline: none;
 }
 
+.terms-text {
+  text-align: center;
+  margin-left: 20%;
+  width: 60%;
+}
+
+.contents{
+  text-align: left;
+}
+
+
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
   color: var(--primary);
